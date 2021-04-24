@@ -1,8 +1,8 @@
 //portfolio array
 const links = [
     {
-        label: "week 1 notes",
-        url: "https://www.google.com.br"
+        label: "Week 1 notes",
+        url: "https://vfaconi.github.io/faconi/week1/index.html"
     }
 ]
     
