@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Week 02</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!--<link rel="stylesheet" href="css/main.css" />-->
+</head>
+
+<script>
+    function adding() {
+        userNumber = parseInt(document.getElementById("inputNumber").value);
+        let total = 0;
+        for (i = 1; i <= userNumber; i++) {
+            total += i
+        }
+        document.getElementById("calc").innerHTML = total
+    }
+
+    function addingTwoNumbers() {
+        userNumber = parseInt(document.getElementById("inputNumber").value);
+        userOtherNumber = parseInt(document.getElementById("inputOtherNumber").value);
+        sumTotal = userNumber + userOtherNumber;
+        document.getElementById("sumTwo").innerHTML = sumTotal
+    }
+
+</script>
+
+<body>
+    <main>
+        <input type="text" id="inputNumber">
+        <input type="text" id="inputOtherNumber">
+        <button type="button" onclick="adding()">Click Here to Sum the First Number</button>
+        <button type="button" onclick="addingTwoNumbers()">Click Here to Sum</button>
+        <div id="calc"></div>
+        <div id="sumTwo"></div>
+    </main>
+</body>
+
+</html>
