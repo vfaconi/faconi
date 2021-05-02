@@ -3,7 +3,12 @@ const links = [
     {
         label: "Week 1 notes",
         url: "https://vfaconi.github.io/faconi/week1/index.html"
+    },
+    {
+        label: "Week 2 notes",
+        url: "https://vfaconi.github.io/faconi/week2/notes.html"
     }
+   
 ]
     
 links.forEach(function(link){
