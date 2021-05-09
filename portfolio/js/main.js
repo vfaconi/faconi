@@ -7,8 +7,11 @@ const links = [
     {
         label: "Week 2 notes",
         url: "https://vfaconi.github.io/faconi/week2/notes.html"
+    },
+    {
+        label: "Week 3 notes / question",
+        url: "https://vfaconi.github.io/faconi/week3/index.html"
     }
-   
 ]
     
 links.forEach(function(link){
