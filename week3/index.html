@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Week 03 Notes</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body>
+    <main>
+        <h2>Week 03 - My notes</h2>
+        <h3>Question</h3>
+        <p>In the Reduce Exercise (number 8 in the Strech Goals), I didn't understand how to solve it. I saw the instructor's answer, but my difficulty is to understand the logic.</p>
+
+        <h3>This - Object Method</h3>
+        <p><strong>Objects</strong> - representes entities in real world like users and orders.</p>
+        <p><strong>Actions</strong> are represented in JavaScript by functions in properties.</p>
+        <p>A function that is a property of an object is called its method.
+            When we write our code using objects to represent entities, that’s called object-oriented programming, in short: <strong>“OOP”.</strong>
+        </p>
+        <p>To access the object, a method can use the this keyword. The value of this is the object “before dot”, the one used to call the method.</p>
+        <ul>
+            
+    <li>Functions that are stored in object properties are called “methods”.</li>
+    <li>Methods allow objects to “act” like object.doSomething().</li>
+    <li>Methods can reference the object as this.</li>
+    <li>The value of this is defined at run-time.</li>
+    <li>When a function is declared, it may use this, but that this has no value until the function is called.</li>
+    <li>A function can be copied between objects.</li>
+    <li>When a function is called in the “method” syntax: object.method(), the value of this during the call is object.</li>
+    <li> When this is accessed inside an arrow function, it is taken from outside.</li>
+        </ul>
+    <p>This references the object that is executing the current function.</p>
+
+    <h3>Object</h3>
+    <p>An object in JavaScript is a self-contained set of related values and functions. Objects are often used to keep any related information and functionality togetherin the same place</p>
+    <p>An <strong>object literal</strong> is an object that is created directly in the language by wrappingall its properties and methods in curly braces{}. Object literals are adistinguishing feature of the JavaScript language, as they allow objects to becreated quickly without the need for defining a class.</p>
+    <p>All objects are mutable at any time when a program is running. This means thatits properties and methods can be changed or removed, and new properties andmethods can be added to the object, even if it was declared usingconst.</p>
+    <p>Calling amethod is the same as invoking a function, so parentheses need to be placed afterthe method name</p>
+    <p>New properties and methods can be added to objects at any time in a program.This is done by simply assigning a value to the new property. </p>
+    <p>An object literal can be passed as a parameter to a function.</p>
+    <p>The <strong>parse() method</strong> takes a string of data in JSON format and returns aJavaScript object</p>
+    <p>A <strong>regular expression (or RegExp, for short)</strong> is a pattern that can be used to searchstrings for matches to the pattern</p>
+    <p><strong>Groups of characters</strong> can be placed together inside square brackets. This charactergroup represents anyoneof the characters inside the brackets.</p>
+
+    <h3>DOM</h3>
+    <p>The Document Object Model (DOM) allows you to access elements of a web pageand enable interaction with the page by adding and removing elements, changingthe order, content and attributes of elements, and even altering how they are styled. The DOM treats everything on a web page as a node. HTML tags, the text inside these tags, even the attributes of a tag are all nodes.</p>
+    <p>The document.querySelector() method allows you to use CSS notation to findthefirstelement in the document that matches a CSS selector provided as an argument. If no elements match, it will return null.</p>
+    <ul>
+        <li>The Document Object Model is a way of representing a page of HTML as a treeof nodes.</li>
+        <li>The document.getElementById(),document.getElementsByClassName(),document.getElementsByTagNames()anddocument.querySelector()can beused to access elements on a page.</li>
+        <li>TheparentNode(),previousSibling(),nextSibling(),childNodes()andchildren()methods can be used to navigate around the DOM tree.</li>
+    </ul>
+
+    <h3>Events</h3>
+    <p>The click event occurs when a user clicks with the mouse, presses the Enter key,or taps the screen, making it a very useful all-round event covering many types of interaction.</p>
+    <p>The original way of dealing with events in the browser was to use inline attributes that were added directly into the markup.</p>
+    <p>Another method is to use the event handler properties that all node objects have.These can be assigned to a function that would be invoked when the event  occurred.</p>
+    <p>The event object - Whenever an event handler is triggered by an event, the callback function iscalled. This function is automatically passed an event object as a parameter that contains information about the event</p>
+    <p>Stopping default event - Some elements have default behavior associated with certain events. For example, when a user clicks on a link, the browser redirects to the address in the href attribute and a form is submitted when the user clicks on the Submit button .preventDefault() is a method of the event object that can be used inside the callback function to stop the default behavior happening</p>
+
+    </main>
+</body>
+</html>

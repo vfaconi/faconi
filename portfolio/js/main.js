@@ -12,7 +12,7 @@ const links = [
 ]
     
 links.forEach(function(link){
-    //console.log(link)
+    //console.log(link);
 
         //create element
         let ol = document.createElement('ol');
