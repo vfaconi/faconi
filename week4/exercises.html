@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Week Team Activity</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <style>
+        #board{
+            margin: auto;
+            width: 252px;
+        }
+    
+        .space{
+            width: 80px;
+            height: 60px;
+            border: 2px solid #000;
+            float: left;
+            text-align: center;
+            padding-top: 20px;
+        }
+    
+        #player{
+            margin: auto;
+            margin-bottom: 30px;
+            width: 252px;
+            height: 80px;
+        }
+    
+        p{
+            float: left;
+            margin-right: 10px;
+        }
+
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div id='player'>
+        <p>Player:</p>
+        <img src='' border='0' height = '50'> 
+    </div>
+
+    <div id='board'>
+        <div id='a1' class='space' game=''></div>
+        <div id='a2' class='space' game=''></div>   
+        <div id='a3' class='space' game=''></div>       
+
+        <div id='b1' class='space' game=''></div>
+        <div id='b2' class='space' game=''></div>   
+        <div id='b3' class='space' game=''></div>
+        
+        <div id='c1' class='space' game=''></div>
+        <div id='c2' class='space' game=''></div>   
+        <div id='c3' class='space' game=''></div>     
+    </div>
+
+    <script src="js/game.js"></script>
+</body>
+
+</html>

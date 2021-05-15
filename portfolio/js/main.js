@@ -1,24 +1,24 @@
 //portfolio array
 const links = [
     {
-        label: "Week 1 notes",
+        label: "Week 1: notes",
         url: "https://vfaconi.github.io/faconi/week1/index.html"
     },
     {
-        label: "Week 2 notes",
+        label: "Week 2: notes",
         url: "https://vfaconi.github.io/faconi/week2/notes.html"
     },
     {
-        label: "Week 3 notes / question",
+        label: "Week 3: notes / question",
         url: "https://vfaconi.github.io/faconi/week3/index.html"
     }
-]
+];
     
+const ol = document.getElementById('list'); 
 links.forEach(function(link){
     //console.log(link);
 
         //create element
-        let ol = document.createElement('ol');
         let li = document.createElement('li');
         let a = document.createElement('a');
        
@@ -35,9 +35,16 @@ links.forEach(function(link){
         ol.appendChild(a);
        
         //display html
-        document.querySelector('div.list').appendChild(ol);
+        //document.querySelector('div.list').appendChild(ul);
    
-})
+});
+
+
+
+
+
+ 
+
 
 
 
