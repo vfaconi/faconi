@@ -7,6 +7,7 @@ let player;
 updatePlayer();
 initSpaces();
 
+//show what player will play
 function updatePlayer(){
     if(gameOver) {return;}
 
@@ -19,6 +20,7 @@ function updatePlayer(){
     }
 }
 
+//show the "X" or "O" when the user clicks on the board
 function initSpaces(){
     let spaces = document.getElementsByClassName("space");
     for(i=0; i < spaces.length; i++){
@@ -38,6 +40,5 @@ function initSpaces(){
                 updatePlayer();
             }
         })
-    
 }
-}
+};
