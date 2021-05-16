@@ -15,9 +15,9 @@
         <p><strong>Accessinf Form Elements</strong> - The legacy DOM had a useful property called document.forms that returns an HTML collection of all the forms in the document in the order they appear in the markup</p>
         <p>The <strong>form.submit()</strong> method will submit the form automatically. A form can be submitted manually by the user employing a button or input element with a type attribute of submit, or even an input element with a type attribute of image.</p>
         <p>The <strong>form.reset()</strong> method will reset all the form controls back to their initial values specified in the HTML.A button with a type attribute of reset can also be used to do this without the need for additional scripting.</p>
-        <p>The <strong>form.actionproperty</strong> can be used to set the action attribute of a form, so it’s sent to a different URL to be processed on the server.</p>
-        <p><strong>Form Events</strong>The focus event occurs when an element is focused on. In the case of an input element, this is when the cursor is placed inside the element (either by clickingor tapping on it or navigating to it using the keyboard)</p>
-        <p><strong>Submititng a Form</strong>Possibly the most important form event is the submit event, occurring when the form is submitted. Usually this will send the content of the form to the server to be processed, but we can use JavaScript to intercept the form before it’s sent by adding a submit event listener.</p>
+        <p>The <strong>form.action property</strong> can be used to set the action attribute of a form, so it’s sent to a different URL to be processed on the server.</p>
+        <p><strong>Form Events</strong> The focus event occurs when an element is focused on. In the case of an input element, this is when the cursor is placed inside the element (either by clickingor tapping on it or navigating to it using the keyboard)</p>
+        <p><strong>Submitting a Form</strong> Possibly the most important form event is the submit event, occurring when the form is submitted. Usually this will send the content of the form to the server to be processed, but we can use JavaScript to intercept the form before it’s sent by adding a submit event listener.</p>
         <p>Text input element objects have a value property that can be used to retrieve the text inside the field.We can use this to report back what the user has searched for.</p>
         <ul>
         <li><strong>Form Controls</strong></li>
@@ -37,7 +37,7 @@
         <p><strong>Encapsulation:</strong> the inner workings are kept hidden inside the object and only the essential functionalities are exposed to the end user.</p>
         <p>Polymorphism: the same process can be used for different objects. In OOP, this means various objects can share the same method, but also have the ability to override shared methods with a more specific implementation.</p>
         <p><strong>Inheritance:</strong> taking the features of one object then adding some new features. In OOP, this means we can take an object that already exists and inherit all its properties and methods. We can then improve on its functionality by adding new properties and methods.</p>
-        <p><strong>Prototype-based language</strong>using actual objects as the blueprint for creating more objects.</p>
+        <p><strong>Prototype-based language</strong> using actual objects as the blueprint for creating more objects.</p>
         <p>The prototype can be used to add any new properties and methods after the classhas been declared. It should be used to define any properties that will remain thesame for every instance of the class.</p>
         <p>Inside a constructor function or class declaration, the keyword this refers to the object returned by the function</p>
         <p>The prototype chain is used to find an available method. If an object lacks amethod, JavaScript will check whether its prototype has the method. If not, itwill check that function’s prototype until it finds the method or reaches theObjectconstructor function</p>
@@ -46,7 +46,7 @@
         <p>A JavaScript library is a piece of code that provides several methods that make iteasier to achieve common tasks.  A library will abstract functionality into easier-to-usefunctions and methods. These can then be used to complete common tasks without having to use lots of repetitive code</p>
         <p>The <strong>jQuery</strong> library uses the$symbol as a convenient alias for the the globaljQueryobject that contains all of jQuery’s methods. This prevents the global scopefrom being polluted with any of jQuery’s methods</p>
         <p>A module is a self-contained piece of code that provides functions and methodsthat can then be used in other files and by other modules.</p>
-        <p>Default exportsrefer toa singlevariable, function or class in a module that can beimported without having to be explicitly named.</p>
+        <p>Default exportsrefer toa single variable, function or class in a module that can beimported without having to be explicitly named.</p>
         <p>Model-View-Controller (MVC) is a design pattern that’s been used for a long timein server-side languages</p>
         <p>Package managers allow developers to download modulesfrom a central repository. A package is just a directory with one or more files of code, as well as a package.json file that contains information about the code in the package.</p>
         <p>npm allows you to install JavaScript packages onto your machine. Some packages rely on other packages, so npm acts as a dependency manager. For example, if you use npm to install a package, it will also install all the packages that the original package depends on as well.</p>
@@ -68,7 +68,6 @@
           console.log(month.name(5))
           console.log(month.number("May"))
         </script>
-
     </main>
 </body>
 </html>
