@@ -21,7 +21,7 @@ const links = [
         url: "https://vfaconi.github.io/faconi/week5/notes.html"
     }
 ];
-   console.log(link);
+   
     
 const ul = document.getElementById('list'); 
 links.forEach(function(link){
