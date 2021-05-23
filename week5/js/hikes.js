@@ -1,7 +1,7 @@
 // Example of using Classes and modules to organize the code needed to render our list of hikes. Not using MVC here.
 
 //create an array of hikes
-const hikeList = [
+/*const hikeList = [
     {
       name: 'Bechler Falls',
       imgSrc: 'falls.jpg',
@@ -143,6 +143,6 @@ const hikeList = [
       
       `;
     return item;
-  }
+  }*/
 
   

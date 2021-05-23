@@ -1,5 +1,5 @@
 // normally the model would have more going on...retrieving the hikes from a database, filtering, etc. Our model will be very simple.  We could simply export the hikeList, but a better pattern would be to create a 'getter' function to do it instead. That way as our model changed...we could simply change the getter function and anything using it should be able to remain the same.
-const hikeList = [
+/*const hikeList = [
   {
     name: 'Bechler Falls',
     imgSrc: 'falls.jpg',
@@ -44,4 +44,4 @@ class HikeModel {
   }
 }
 
-export default HikeModel;
+export default HikeModel;*/
