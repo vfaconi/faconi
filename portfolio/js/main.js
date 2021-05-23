@@ -17,7 +17,7 @@ const links = [
         url: "https://vfaconi.github.io/faconi/week4/index.html"
     },
     {
-        label: "Week 5: notes / question",
+        label: "Week 5: notes",
         url: "https://vfaconi.github.io/faconi/week5/notes.html"
     }
 ];
