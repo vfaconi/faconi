@@ -15,10 +15,15 @@ const links = [
     {
         label: "Week 4: notes / code",
         url: "https://vfaconi.github.io/faconi/week4/index.html"
+    },
+    {
+        label: "Week 5: notes / question",
+        url: "https://vfaconi.github.io/faconi/week5/notes.html"
     }
 ];
+   console.log(link);
     
-const ol = document.getElementById('list'); 
+const ul = document.getElementById('list'); 
 links.forEach(function(link){
     //console.log(link);
 

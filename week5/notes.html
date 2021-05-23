@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Week 05 Notes</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body>
+    <main>
+        <h2>Question</h2>
+        <p>In the Team Assignment this week the code didn't work and it returns this message: "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource". I researched it, tried some solutions, but it didn't work. Why this message appears?</p>
+        <h2>Test and Debbuging</h2>
+        <p>Errors are caused when something goes wrong in a program. They are usually caused by one of the following:</p>
+        <ul>
+        <li>System error ― there’s a problem with the system or external devices with which the program is interacting.</li>
+        <li>Programmer error ― the program contains incorrect syntax or faulty logic; it could even be as simple as a typo.</li>
+        <li>User error ― the user has entered data incorrectly, which the program is unable to handle.</li>
+        </ul>
+        <p>An <strong>exception</strong> is an error that produces a return value that can then be used by the program to deal with the error.</p>
+        <p>An exception will also produce a <strong>stack trace</strong>. This is a sequence of functions or method calls that lead to the point where the error occurred</p>
+        <p>A <strong>warning</strong> can occur if there’s an error in the code that isn’t enough to cause theprogram to crash. This means the program will continue to run after a warning.This might sound good, but it can be problematic, since the issue that producedthe warning may cause the program to continue running incorrectly</p>
+        <p>Increasing the chance of errors might seem like a bad idea at first, but it’s much better to spot errors early on, rather than have them cause problems later. Writing code in strict mode can also help improve its clarity and speed, since it follows conventions and will throw exceptions if any sloppy code practices are used. ES6 introduced JavaScript modules. These are self-contained pieces of code that are in strict mode by default, so the'use strict'declaration is not required</p>
+        <p><strong>Linting tools</strong> such as JS Lint,1JS Hint,2and ES Lint3can be used to test the quality of JavaScript code, beyond simply using strict mode. Linting tools are also useful for enforcing a programming style guide. This is particularly useful when you are working in a team, as it ensures everybody follows the same conventions.</p> 
+        <p><strong>Feature Detection</strong> - The recommended way to determine browser support for a feature is to use feature detection. This is done using an if statement to check whether an object or method exists before trying to actually call the method.</p>
+        <p><strong>Debbuging in the Browser</strong> - debugging is the process of finding out where bugs occur in the code and thendealing with them. In many cases, the point at which an error occurs is not always where it originated, so you’ll need to run through the program to see what’s happening at different stages of its execution</p>
+        <p><strong>Alert</strong>The most basic form of debugging is to use the alert() method to show a dialog at certain points in the code. Because alert() stops a program from running until OK is clicked, it allows us to effectively put breakpoints in the code that let us check the value of variables at that point to see if they’re what we expect them to be.</p>
+        <p><strong>Debbuging Tools</strong>Most modern browsers also have a debugging tool that allows you to set break points in your code that will pause it at certain points. You can then see the values of all the variables at those points and modify them. This can be very useful when trying to track down bugs.</p>
+        <ul>
+            <li><strong>Error Objects:</strong></li>
+            <li>Eval Error is not used in the current ECMAScript specification and only retained for backwards compatibility. It was used to identify errors when using the globaleval()function.</li>
+            <li>RangeErroris thrown when a number is outside an allowable range of values.</li>
+            <li>Reference Error is thrown when a reference is made to an item that doesn’texist. For example, calling a function that hasn’t been defined.</li>
+            <li>Syntax Error is thrown when there’s an error in the code’s syntax</li>
+            <li>Type Error is thrown when there’s an error in the type of value used; for example, a string is used when a number is expected.</li>
+            <li>URIError is thrown when there’s a problem encoding or decoding the URI.</li>
+            <li>Internal Erroris a non-standard error that is thrown when an error occurs inthe JavaScript engine. A common cause of this is too much recursion.</li>
+        </ul>
+        <p><strong>Throwing Expectations</strong> So far we’ve seen errors that are thrown automatically by the JavaScript enginewhen an error occurs. It’s also possible to throw your own exceptions using the
+        throw statement. This will allow for any problems in your code to be highlighted and dealt with, rather than lurk quietly in the background.</p>
+        <p><strong>Exception Handling</strong>When an exception occurs, the program terminates with an error message. This is ideal in development as it allows us to identify and fix errors. In production,however, it will appear as if the program has crashed.It is possible to handle exceptions gracefully by catching the error. Any errors can be hidden from users, but still identified. We can then deal with the error appropriately ― perhaps even ignore it ― and keep the program running</p>
+        <p><strong>Test-driven development(TDD)</strong> is the process of writing tests before any actualcode. Obviously these tests will initially fail, because there is no code to test. The next step is to write some code to make the tests pass. After this, the code is refactored to make it faster, more readable, and remove any repetition. The code is continually tested at each stage to make sure it continues to work.</p>
+        <ol>
+            <li>Write tests (that initially fail)</li>
+            <li>Write code to pass the tests</li>
+            <li>Refactor the code</li>
+            <li>Test refactored code</li>
+            <li>Write more tests for new features</li>
+        </ol>
+        <p><strong>Testing frameworks</strong> provide a structure to write meaningful tests and then run them. <strong>Jest</strong> is a TDD framework, created by Facebook, that has gained a lot ofpopularity recently. It makes it easy to create and run tests by providing helpermethods for common test assertions.</p>
+       
+        
+
+
+
+
+
+
+
+
+
+
+    
+    </main>
+</body>
+</html>
