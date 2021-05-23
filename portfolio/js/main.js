@@ -23,7 +23,7 @@ const links = [
 ];
    
     
-const ul = document.getElementById('list'); 
+const ol = document.getElementById('list'); 
 links.forEach(function(link){
    
 
