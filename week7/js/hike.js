@@ -36,7 +36,7 @@ const hikeList = [
     }
   ];
   
-  const imgBasePath = '//byui-cit.github.io/cit261/examples/';
+  const imgBasePath = 'https://cdn.pixabay.com/photo/2017/11/15/13/27/river-2951997_960_720.jpg';
   
   export default class Hikes {
     constructor(elementId) {
