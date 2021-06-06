@@ -21,14 +21,11 @@ function showTask(){
         linkElement.setAttribute('href', '#')
         linkElement.setAttribute('onclick', `deleteTask(${pos})`)
         
-
         taskElement.appendChild(inputElement)
         taskElement.appendChild(textElement)
         listElement.appendChild(taskElement)
         linkElement.appendChild(linkText)
-        taskElement.appendChild(linkElement)
-      
-        
+     
     }
 }
 
@@ -38,6 +35,7 @@ function addTask(){
     const textArea = inputElement.value
     tasks.push(textArea)
     inputElement.value = " "
+
     showTask()
     saveLocalStorage()
 }

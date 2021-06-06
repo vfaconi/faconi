@@ -23,6 +23,10 @@ const links = [
       {
         label: "Week 6: To Do Challenge",
         url: "https://vfaconi.github.io/faconi/week6/index.html"
+    },
+    {
+        label: "Week 7: Notes",
+        url: "https://vfaconi.github.io/faconi/week7/notes.html"
     }
 ];
    
