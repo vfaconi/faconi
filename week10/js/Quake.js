@@ -28,4 +28,4 @@ this._quakes = await getJSON(
     }&longitude=${position.lon}&maxradiuskm=${radius}`
  );
 
- return this._quakes.features.filter(item => item.id === id)[0];        
+ return this._quakes.features.filter(item => item.id === id);        
