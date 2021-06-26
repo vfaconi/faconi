@@ -32,3 +32,6 @@ class QuakesView {
       .join('');
   }
 }
+
+    
+
