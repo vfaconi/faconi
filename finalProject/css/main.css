@@ -1,14 +1,16 @@
 #hero{
     display: grid;
-    background-color: pink;
+    grid-template-columns: 1fr 1fr;
+
  
     
 }
 #hero img{
-    grid-template-columns: 1fr 1fr;
+    
     width: 350px;
     height: 300px;
     margin: auto;
+    border-radius: 15%;
   
     
 }
