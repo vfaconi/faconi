@@ -1,19 +1,17 @@
 #hero{
-    /*display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;*/
-    display: grid;
-    width: 100%;
+ 
     background-color: aqua;
+ 
     
 }
-
 #hero img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 350px;
     height: 300px;
     margin: auto;
-    grid-template-columns: 1fr 1fr;
+  
     
 }
 
