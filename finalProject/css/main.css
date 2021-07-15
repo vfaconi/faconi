@@ -1,17 +1,16 @@
 #hero{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-
- 
-    
+    grid-template-columns: 1fr 1fr;  
 }
+
 #hero img{
-    
     width: 350px;
     height: 300px;
     margin: auto;
-    border-radius: 15%;
-  
-    
+    border-radius: 0.3%;
+}
+
+#hero text{
+    align-items: center;
 }
 
