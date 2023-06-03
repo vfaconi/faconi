@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
     <meta charset="utf-8" />
-        <title>Local Quakes</title>
+        <title>Local Quakes Updated</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
 
@@ -11,7 +11,19 @@
             <h1>Quake List</h1>
             <ul id="quakeList" getQuakeById()></ul>
         </main>
-        <script src="js/index.js" type="module"></script>
+        <script>
+            const timestamp = "1624934478"
+            const apikey = "9c398dfdcff024d6c2a216a1628df14c"
+            const md5 = "af1c0dd46dc8ceeef47b4f502f680e6d"
+
+            http://gateway.marvel.com/v1/public/comics?ts=1&apikey=1234&hash=ffd275c5130566a2916217b101f26150
+            
+            fetch("http://gateway.marvel.com/v1/public/characters?limit=9&offset="+offset+"&ts="+timeStamp+"&apikey="+publicKey+"&hash="+hash).then((response) => {
+                return response.json();
+            }).then((jsonParsed) => {
+                console.log(jsonParsed);
+            })
+            </script>
     </body>
 </html>
         
